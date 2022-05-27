@@ -1,0 +1,54 @@
+body {
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+h5, .header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    width: 120px;
+    padding: 6px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 0 300px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.header-links {
+    display: flex;
+    gap: 18px;
+}
+
+.hero-content {
+    display: flex;
+}
