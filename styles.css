@@ -22,6 +22,15 @@ h2 {
     text-align: center;
 }
 
+h3, h6 {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+h6{
+    font-weight: normal;
+}
+
 .header-button {
     width: 120px;
     padding: 6px;
@@ -108,12 +117,24 @@ ul {
 }
 
 .action-card {
-    margin-top: 32px;
-    padding: 12px;
+    margin: 32px 0;
+    padding: 24px;
     width: 500px;
     background-color: #3882F6;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+.action-button {
+    width: 100px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: solid #E5E7EB;
+    color: #E5E7EB;
+}
+
+.action-button:hover {
+    background-color: burlywood;
+}
